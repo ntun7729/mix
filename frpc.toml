@@ -1,0 +1,17 @@
+serverAddr = "54.169.95.15"
+serverPort = 7000
+
+
+[[proxies]]
+name = "kcp-udp"
+type = "udp"
+localIP = "127.0.0.1"
+localPort = 55555
+remotePort = 45000
+
+[[proxies]]
+name = "kcp-tcp"
+type = "tcp"
+localIP = "127.0.0.1"
+localPort = 55555
+remotePort = 45000
