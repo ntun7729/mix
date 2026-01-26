@@ -1,4 +1,4 @@
-FROM shaogme/x-ui-yg:alpine
+FROM ghcr.io/mhsanaei/3x-ui:v2.8.6
 
 USER root
 
