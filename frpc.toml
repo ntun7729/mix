@@ -6,12 +6,19 @@ serverPort = 7000
 name = "kcp-udp"
 type = "udp"
 localIP = "127.0.0.1"
-localPort = 55555
+localPort = 45000
 remotePort = 45000
 
 [[proxies]]
 name = "kcp-tcp"
 type = "tcp"
 localIP = "127.0.0.1"
-localPort = 55555
+localPort = 45000
 remotePort = 45000
+
+[[proxies]]
+name = "tcp-http"
+type = "tcp"
+localIP = "127.0.0.1"
+localPort = 44444
+remotePort = 44444
